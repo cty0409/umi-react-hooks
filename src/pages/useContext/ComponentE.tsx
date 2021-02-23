@@ -2,7 +2,7 @@ import React,{useContext} from 'react'
 import ComponentF from './ComponentF'
 import { Button } from 'antd-mobile';
 import { context } from './Provider';
-import {UserContext, AgeContext} from './index'
+import {UserContext, AgeContext} from './UseContext'
 
 function ComponentE() {
   const user = useContext(UserContext)

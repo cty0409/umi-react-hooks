@@ -1,15 +1,5 @@
-import React,{createContext} from 'react'
-import ComponentC from './ComponentC'
-import { CounterProvider } from './Provider';
-export const UserContext = createContext('')
-export const AgeContext = createContext('')
-
-const App = () => {
-  return (
-    <CounterProvider>
-     <ComponentC />
-    </CounterProvider>
-  )
+import UseContext from './useContext/UseContext'
+import UseReducer from './useReducer/UseReducer'
+export default ()=>{
+  return  <UseReducer></UseReducer>
 }
-
-export default App
